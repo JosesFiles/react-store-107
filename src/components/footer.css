@@ -1,0 +1,12 @@
+.footer {
+    background-color: rgb(80, 80, 80);
+    display: flex;
+    justify-content: space-evenly;
+    padding-bottom: 20px;
+    padding-top: 15px;
+    color: #fafafa;
+}
+
+.footer label {
+    color: red;
+}
