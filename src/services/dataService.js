@@ -36,7 +36,7 @@ const catalog = [
 
     {
         title: "Samsung Galaxy Watch 5",
-        price: 499.99,
+        price: 399.99,
         catagory:"phone",
         image:"Samsung-Galaxy-5.jpg"
     },
@@ -56,3 +56,14 @@ const catalog = [
     },
 
 ];
+
+
+class DataService {
+
+    getCatalog() {
+        return catalog;
+    }
+
+}
+
+export default DataService;

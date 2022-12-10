@@ -1,0 +1,16 @@
+# initialize the repository
+git initialize
+
+# add the remote url
+git remote add origin <url>
+
+
+# create a local copy 
+git add .
+git commit -m "107 class 1 and 2"
+
+# Push /upload 
+git push -u origin master
+
+next time 
+git push

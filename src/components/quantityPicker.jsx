@@ -23,7 +23,7 @@ function QuantityPicker() {
     return (
         <div className="qty-picker">
 
-            <button disable={quantity ===1} onClick={handleDecrease}>-</button>
+            <button disabled={quantity ===1} onClick={handleDecrease}>-</button>
             <label>{quantity}</label>
             <button onClick={handleIncrease}>+</button>
 
