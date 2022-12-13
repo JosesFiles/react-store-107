@@ -5,11 +5,15 @@ import QuantityPicker from "./quantityPicker";
 function Product(props){
     return (
         <div className="product">
-            <img src="https://picsum.photos/200/200" alt=""></img>
+            <img src={"/images/"+props.data.image} alt=""></img>
 
-            <h5>{props.title}</h5>
-            <label>$999.99</label>
+            <h5>{props.data.title}</h5>
 
+            <div className="prices">
+            <label>Total: ${props.data.price.toFixed(2)}</label>
+            <label>Price: ${props.data.price.toFixed(2)}</label>
+            </div>
+            
             <QuantityPicker />
 
             <button>Add</button>

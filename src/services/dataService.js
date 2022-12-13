@@ -10,7 +10,7 @@ const catalog = [
         title: "Iphone 12 Pro",
         price: 699.99,
         catagory:"phone",
-        image:"iphone-12-pro max.png"
+        image:"iphone-12-pro.jpg"
     },
 
     {
