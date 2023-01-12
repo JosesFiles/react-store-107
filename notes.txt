@@ -14,3 +14,8 @@ git push -u origin master
 
 next time 
 git push
+
+
+
+start the project 
+npm start

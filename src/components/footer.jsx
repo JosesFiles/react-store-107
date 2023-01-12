@@ -4,7 +4,7 @@ import "./footer.css";
 function Footer() {
     return (
     <div className="footer">
-        2022 is almost over.
+        In business since 2010
 
         <label>By: Jose Luis Sanchez</label>
     </div>
