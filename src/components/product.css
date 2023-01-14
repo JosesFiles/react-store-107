@@ -6,6 +6,9 @@
     margin-right: 15px;
     margin-bottom: 15px;
     padding: 10px;
+    background-color:    #adb5bd;
+    height: 335px;
+    vertical-align: top;
 }
 
 .product:hover {
@@ -21,6 +24,7 @@
 .product img {
     width: 180px;
     height: 180px;
+
 }
 
 .product .prices {

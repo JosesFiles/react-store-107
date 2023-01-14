@@ -22,7 +22,7 @@ function Product(props) {
     }
         function handleAdd() {
             console.log("Button Clicked", props.data);
-            addProductToCart();
+            addProductToCart(props.data);  //call the global function
     }
 
     
